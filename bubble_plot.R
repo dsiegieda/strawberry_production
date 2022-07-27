@@ -42,4 +42,4 @@ ggplot(df, aes(y=area_harvested, x=production, size=yield, color=continent))+
        color='continent')+
   theme_bw()
 
-ggsave('production2.png', height=7, width = 9)
+ggsave('production.png', height=7, width = 9)
